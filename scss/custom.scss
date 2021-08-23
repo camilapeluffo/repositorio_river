@@ -1,0 +1,151 @@
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+@import "variables";
+
+* {
+    margin:0;
+    padding:0;
+ }
+ 
+
+.supramenu { 
+    background-color: black;
+    color: $cool-whithe;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+  }
+
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding: .9rem;
+    font-size: 20px;
+    margin: 10px 15px 10px 15px;
+}
+
+.bg-light {
+  --bs-bg-opacity: 1;
+  background-color: $cool-crem;
+}
+
+.nav-item:hover {
+    color: $cool-crem;
+    background-color:$cool-red;
+    border-color:$cool-red;
+    font-weight: bold;  
+}
+
+.w-100 {
+    width: 100%!important;
+    height: 500px;
+}
+
+.py-1 { 
+  padding-top: 0.25rem !important;
+  padding-bottom: 0.25rem !important;
+  background-color: $cool-crem;
+}
+
+
+
+.btn-primary {
+    color: $cool-crem;
+    background-color:$cool-red;
+    border-color: $cool-red;
+    margin: 10px
+  }
+
+
+
+  .btn-primary:hover {
+    color: $cool-crem;
+    background-color:black;
+    border-color:black;
+  }
+
+  .form-contacto{
+    padding-left: 80px;
+  }
+
+  .form-control {
+    display: block;
+    width: 30%;
+    margin: 0px 10px;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: $cool-crem;
+    background-clip: padding-box;
+    border: 1px solid $cool-crem;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+    border-radius: 0.25rem;
+    -webkit-transition: border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+    transition: border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+  }
+
+
+  .envianos { 
+    font-size: 20px;
+    margin: 20px;
+  }
+
+  .envianos-grande {
+      @extend .envianos;
+      font-size: 40px;
+      margin: 10px;
+  }
+
+    .form-select {
+        display: block;
+        width: 30%;
+        margin: 0px 10px;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+        color: black;
+        background-color: $cool-crem;
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23343a40' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M2 5l6 6 6-6'/%3e%3c/svg%3e");
+        background-repeat: no-repeat;
+        background-position: right 0.75rem center;
+        background-size: 16px 12px;
+        border: 1px solid $cool-crem;
+        border-radius: 0.25rem;
+        -webkit-transition: border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+        transition: border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+        transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+        transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+        -webkit-appearance: none;
+           -moz-appearance: none;
+                appearance: none;
+      }
+  
+
+  .nosotros { 
+    text-align: justify;
+    font-size: 1.3rem;
+    padding: 30px ;
+  }
+
+  .nosotros_p {
+    margin: 50px 50px;
+  }
+
+  
+  .card-img,
+.card-img-top,
+.card-img-bottom {
+  width: 100%;
+  height: 10%;
+}
+
